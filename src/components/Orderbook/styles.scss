@@ -1,0 +1,61 @@
+.orderbook {
+    .header,
+    .status {
+        height: 40px;
+        line-height: 40px;
+    }
+    .asks,
+    .bids {
+        min-height: 120px;
+    }
+    .ask,
+    .bid {
+        min-height: 24px;
+    }
+    .border{
+        border-bottom: 2px solid rgb(6, 6, 70) !important;
+    }
+
+
+    .full{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .half{
+        height: 70%;
+    }
+    .quater{
+        height: 25%;
+        font-size: 11px;
+    }
+    .data{
+        z-index: 2;
+        position: relative;
+    }
+    .volbar{
+        background-color: rgb(204, 227, 241);
+        background-position: 50% center;
+        position: absolute;
+        height: 20px;
+        top: 9px;
+        right: -1px;
+        z-index: 1;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 16px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      overflow: auto;
+}
